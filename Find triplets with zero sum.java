@@ -1,5 +1,4 @@
 class Solution{
-    
     //Function to find triplets with zero sum.
 	public boolean findTriplets(int arr[],int n){
 	    //Sorting the elements.
