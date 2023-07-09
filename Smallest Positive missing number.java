@@ -19,7 +19,6 @@ class Solution
     	}
     	return j; 
     } 
-    
     /*Finding the smallest positive missing number in an array 
     that contains only positive integers. */
     static int findMissingPositive(int arr[],int st, int end)
@@ -56,7 +55,5 @@ class Solution
         //shifting the array to access only positive part.
         //calling function to find result and returning it.
         return findMissingPositive(arr,shift, size); 
-    }
-    
-    
+    } 
 }
